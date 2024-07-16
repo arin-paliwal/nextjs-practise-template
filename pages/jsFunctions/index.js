@@ -59,6 +59,11 @@ const page=()=>{
     const newArray3=array.concat([77,88,99])
     console.log(newArray3)
 
+    // from function
+    // from creates a new, shallow-copied Array instance from an array-like or iterable object.
+    const newArray4=Array.from(array,iterator=>iterator*2)
+    console.log(newArray4)
+
     return(
         <h1>JS Functions</h1>
     )
